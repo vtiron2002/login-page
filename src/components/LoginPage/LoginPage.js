@@ -4,6 +4,10 @@ import './LoginPage.css';
 export default function LoginPage() {
 	const icons = ['facebook', 'vk', 'twitter', 'google'];
 
+	useEffect(() => {
+		document.querySelector('title').innerText = 'Login Page';
+	}, []);
+
 	return (
 		<>
 			<div className='gridContainer'>
