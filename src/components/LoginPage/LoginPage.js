@@ -39,7 +39,7 @@ export default function LoginPage() {
 							<div className='lowerMiddle'>
 								<button>
 									<span>Login</span>
-									<ion-icon name='log-out'></ion-icon>
+									<ion-icon name='log-in'></ion-icon>
 								</button>
 								<div className='recoverPass'>
 									<a href='#' className='recoverPassBtn'>

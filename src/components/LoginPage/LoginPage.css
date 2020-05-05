@@ -247,4 +247,12 @@ body {
     flex: 1
   }
 
+  .lowerMiddle button ion-icon {
+    display: none;
+  }
+
+  .lowerMiddle button span {
+    font-size: .9rem;
+  }
+
 }
